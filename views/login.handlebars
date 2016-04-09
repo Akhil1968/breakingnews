@@ -1,0 +1,30 @@
+<html>
+ <head>
+    {{>includeHead}}
+ </head>
+ <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4 panel panel-default">
+        <h1 align="center" class="margin-base-vertical">Sign In</h1>
+        <form class="margin-base-vertical" method="get" action="/newNews"> <!--FORM starts -->
+          <p class="input-group ">
+            <span class="input-group-addon"><span class="icon-user"></span></span>
+            <input type="text" required class="form-control input-lg" name="nm" placeholder="username" />
+            <input type="password" required class="form-control input-lg" name="pwd" />
+          </p>
+          <p class="help-block text-center">
+            <small>Please login to post news</small>
+          </p>
+          <p class="text-center">
+            <button type="submit" class="btn btn-success btn-lg">Sign-In</button>
+          </p>
+        </form> <!--FORM ends -->
+      </div>
+    </div>
+  </div>
+    {{>includeFoot}}
+  </body>
+  </html>
+
+  
